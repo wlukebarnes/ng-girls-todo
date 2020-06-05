@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     Welcome to {{ title }}!
   </h1>
 
-  <app-input-button-unit>ba</app-input-button-unit>
+  <app-input-button-unit></app-input-button-unit>
 `,
   styleUrls: ['./app.component.scss']
 })
