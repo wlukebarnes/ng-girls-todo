@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, OnInit } from '@angular/core';
 import { TodoItem } from '../interfaces/todo-item';
 
 @Component({

@@ -19,7 +19,7 @@ export class InputButtonUnitComponent implements OnInit {
 
   constructor() { }
 
-  submitValue(newTitle): void {
+  submitValue(newTitle:any): void {
     this.submit.emit(newTitle)
   }
 
